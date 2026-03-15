@@ -40,7 +40,8 @@ Plaintext
 Ensure your configs/conf.py is configured as follows:
 Python
 
-conf = {
+    configs/conf.py
+
     "OLLAMA_SERVER": "http://localhost:11434/api/generate",
     "LLM_DATA": {
         "model": "qwen3.5:9b", # you can use what you want
@@ -48,7 +49,6 @@ conf = {
         "stream": False
     },
     "SKIP_FILES": ["README.md", ".gitignore", "configs/conf.py"]
-}
 
 # 🖥️ Usage
 
